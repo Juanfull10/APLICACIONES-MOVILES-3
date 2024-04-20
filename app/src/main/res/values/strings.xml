@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">proyecto</string>
+    <string name="campo_de_entrada_de_texto_para_el_nombre_del_usuario">Campo de entrada de texto para el nombre del usuario</string>
+</resources>
