@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#1C0C4F"
     tools:context=".MainActivity2"
     tools:ignore="ExtraText">
 
@@ -13,10 +14,10 @@
         android:layout_height="148dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintHorizontal_bias="0.577"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.238"
+        app:layout_constraintVertical_bias="0.142"
         app:srcCompat="@drawable/sin_t_tulo" />
 
     <EditText
@@ -24,11 +25,14 @@
         android:layout_width="215dp"
         android:layout_height="51dp"
         android:autoText="false"
+        android:background="#FFFFFF"
         android:ems="10"
+        android:hint="correo"
         android:inputType="text"
-        android:text="correo"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.556"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -37,12 +41,42 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Correo"
+        android:textColor="#F85F6A"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.277"
+        app:layout_constraintHorizontal_bias="0.311"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.436" />
+        app:layout_constraintVertical_bias="0.406" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="128dp"
+        android:layout_height="69dp"
+        android:backgroundTint="#F85F6A"
+        android:text="Enviar"
+        android:textColorLink="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.62" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="128dp"
+        android:layout_height="69dp"
+        android:backgroundTint="#F85F6A"
+        android:text="Regresa"
+        android:textColorLink="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.765" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
